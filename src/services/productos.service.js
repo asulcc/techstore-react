@@ -1,7 +1,6 @@
 import { apiFetch } from "./api";
 
-// Lógica de consumo del recurso "productos" en JSON Server.
-// Separado de los componentes según lo exigido por el proyecto (carpeta Services).
+// Consumo del recurso "productos" en JSON Server.
 export function getProductos() {
   return apiFetch("/productos");
 }
