@@ -1,5 +1,5 @@
 // Etiqueta reutilizable para categoría, stock y descuentos.
-// Etiqueta reutilizable para categoría, stock y descuentos.
+
 function Badge({ children, tone = "neutral", className = "" }) {
   const tones = {
     neutral: "bg-graphite-surface2 text-ink-muted border border-graphite-border",

@@ -1,5 +1,5 @@
 // Estado vacío / error reutilizable para listas que consumen la API.
-// Estado vacío / error reutilizable para listas que consumen la API.
+
 function EmptyState({
   title = "Sin resultados",
   message = "No se encontró información para mostrar.",
