@@ -1,5 +1,4 @@
-// Logo de marca TechStore — motivo "conector de placa" reutilizado en Navbar y Footer.
-export default function Logo({ className = "h-8 w-8" }) {
+function Logo({ className = "h-8 w-8" }) {
   return (
     <svg viewBox="0 0 40 40" fill="none" className={className} aria-hidden="true">
       <rect x="1" y="1" width="38" height="38" rx="8" stroke="currentColor" strokeWidth="2" className="text-copper" />
@@ -9,3 +8,5 @@ export default function Logo({ className = "h-8 w-8" }) {
     </svg>
   );
 }
+
+export default Logo;

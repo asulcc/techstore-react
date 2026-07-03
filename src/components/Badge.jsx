@@ -1,5 +1,6 @@
 // Etiqueta reutilizable para categoría, stock y descuentos.
-export default function Badge({ children, tone = "neutral", className = "" }) {
+// Etiqueta reutilizable para categoría, stock y descuentos.
+function Badge({ children, tone = "neutral", className = "" }) {
   const tones = {
     neutral: "bg-graphite-surface2 text-ink-muted border border-graphite-border",
     copper: "bg-copper/15 text-copper-light border border-copper/30",
@@ -14,3 +15,5 @@ export default function Badge({ children, tone = "neutral", className = "" }) {
     </span>
   );
 }
+
+export default Badge;
