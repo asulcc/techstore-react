@@ -1,6 +1,4 @@
-// Botón reutilizable con variantes. Se usa en toda la aplicación
-// (Navbar, formularios, tarjetas de producto, CTAs de secciones).
-export default function Button({
+function Button({
   children,
   variant = "primary",
   type = "button",
@@ -35,3 +33,5 @@ export default function Button({
     </button>
   );
 }
+
+export default Button;

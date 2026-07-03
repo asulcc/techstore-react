@@ -1,0 +1,38 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Laptop Gamer ASUS ROG Strix G16",
+      "descripcion": "Intel Core i7, 16GB RAM, 512GB SSD, RTX 4060",
+      "precio": 4599,
+      "categoria": "Tecnología",
+      "imagen": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=500",
+      "stock": 12,
+      "oferta": false,
+      "descuento": 0
+    },
+    {
+      "id": 2,
+      "nombre": "Mouse Logitech G502 HERO",
+      "descripcion": "Mouse gamer de alta precisión con 25.600 DPI",
+      "precio": 249,
+      "categoria": "Periféricos",
+      "imagen": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=500",
+      "stock": 35,
+      "oferta": true,
+      "descuento": 15
+    },
+    {
+      "id": 3,
+      "nombre": "Audífonos HyperX Cloud II",
+      "descripcion": "Audífonos gaming con sonido envolvente 7.1",
+      "precio": 349,
+      "categoria": "Audio",
+      "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500",
+      "stock": 20,
+      "oferta": true,
+      "descuento": 10
+    }
+  ],
+  "contactos": []
+}

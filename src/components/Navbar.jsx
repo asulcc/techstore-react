@@ -2,8 +2,6 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import Logo from "../assets/logo.jsx";
 
-// Navbar reutilizable con navegación por rutas (React Router DOM)
-// y manejo de estado local para el menú responsive (useState).
 const links = [
   { to: "/", label: "Inicio" },
   { to: "/nosotros", label: "Nosotros" },
@@ -12,7 +10,7 @@ const links = [
   { to: "/contacto", label: "Contacto" },
 ];
 
-export default function Navbar() {
+function Navbar() {
   const [abierto, setAbierto] = useState(false);
 
   const linkClase = ({ isActive }) =>
@@ -90,3 +88,5 @@ export default function Navbar() {
     </header>
   );
 }
+
+export default Navbar;
