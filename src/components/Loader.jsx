@@ -1,5 +1,5 @@
 // Indicador de carga reutilizable mientras se consume la API con Fetch.
-// Indicador de carga reutilizable mientras se consume la API con Fetch.
+
 function Loader({ label = "Cargando datos..." }) {
   return (
     <div className="flex flex-col items-center justify-center gap-3 py-20 text-ink-muted">

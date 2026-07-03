@@ -1,8 +1,7 @@
 import { Link } from "react-router-dom";
 import Logo from "../assets/logo.jsx";
 
-// Footer reutilizable, presente en todas las páginas vía App.jsx.
-// Footer reutilizable, presente en todas las páginas vía App.jsx.
+// Footer reutilizable, presente en todas las páginas
 function Footer() {
   const anio = new Date().getFullYear();
 
