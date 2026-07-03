@@ -1,6 +1,4 @@
-// Divisor decorativo con forma de traza de circuito impreso.
-// Refuerza la identidad visual de la marca entre secciones.
-export default function TraceDivider() {
+function TraceDivider() {
   return (
     <div className="trace-divider" aria-hidden="true">
       <svg viewBox="0 0 1200 24" preserveAspectRatio="none" className="w-full h-6">
@@ -17,3 +15,5 @@ export default function TraceDivider() {
     </div>
   );
 }
+
+export default TraceDivider;

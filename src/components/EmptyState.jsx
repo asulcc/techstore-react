@@ -1,5 +1,6 @@
 // Estado vacío / error reutilizable para listas que consumen la API.
-export default function EmptyState({
+// Estado vacío / error reutilizable para listas que consumen la API.
+function EmptyState({
   title = "Sin resultados",
   message = "No se encontró información para mostrar.",
   action = null,
@@ -15,3 +16,5 @@ export default function EmptyState({
     </div>
   );
 }
+
+export default EmptyState;
