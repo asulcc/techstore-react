@@ -12,33 +12,19 @@ const valores = [
   { titulo: "Soporte cercano", texto: "Respondemos consultas técnicas antes y después de la compra." },
 ];
 
-// Página de presentación / información general de la empresa.
-export default function Nosotros() {
+function Nosotros() {
   return (
     <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
-      <span className="font-mono text-xs uppercase tracking-[0.2em] text-copper">
-        Quiénes somos
-      </span>
-      <h1 className="mt-2 font-display text-3xl font-semibold text-ink sm:text-4xl">
-        Tecnología elegida por quienes la usan a diario.
-      </h1>
-      <p className="mt-4 max-w-2xl text-ink-muted">
-        TechStore es una tienda peruana de tecnología y periféricos. Este
-        proyecto es la versión desarrollada para el curso de Javascript
-        Avanzado, consumiendo un catálogo simulado con JSON Server y Fetch API.
-      </p>
+      <span className="font-mono text-xs uppercase tracking-[0.2em] text-copper">Quiénes somos</span>
+      <h1 className="mt-2 font-display text-3xl font-semibold text-ink sm:text-4xl">Tecnología elegida por quienes la usan a diario.</h1>
+      <p className="mt-4 max-w-2xl text-ink-muted">TechStore es una tienda peruana de tecnología y periféricos. Este proyecto es la versión desarrollada para el curso de Javascript Avanzado, consumiendo un catálogo simulado con JSON Server y Fetch API.</p>
 
       <TraceDivider />
 
       <div className="grid gap-4 sm:grid-cols-3">
         {valores.map((v) => (
-          <div
-            key={v.titulo}
-            className="connector-frame rounded-lg border border-graphite-border bg-graphite-surface p-5"
-          >
-            <h3 className="font-display text-base font-semibold text-mint">
-              {v.titulo}
-            </h3>
+          <div key={v.titulo} className="connector-frame rounded-lg border border-graphite-border bg-graphite-surface p-5">
+            <h3 className="font-display text-base font-semibold text-mint">{v.titulo}</h3>
             <p className="mt-2 text-sm text-ink-muted">{v.texto}</p>
           </div>
         ))}
@@ -59,3 +45,5 @@ export default function Nosotros() {
     </div>
   );
 }
+
+export default Nosotros;
