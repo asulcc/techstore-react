@@ -1,5 +1,5 @@
 // Configuración base del cliente HTTP con Fetch API.
-export const API_URL = "http://localhost:3000";
+export const API_URL = "https://techstore-react-cxnn.onrender.com";
 
 // Envoltorio sobre fetch: centraliza manejo de errores y respuestas 204.
 export async function apiFetch(path, options = {}) {
